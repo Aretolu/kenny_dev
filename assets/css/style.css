@@ -1,0 +1,153 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000;
+    color: #d3d3d3;
+}
+
+.nav_img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+}
+
+section:first-child {
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    height: 90vh;
+    text-align: center;
+    padding-top: 10em;
+}
+
+.hero .brands  i {
+    font-size: 1.5em;
+    padding: 10px;
+    color: #000;
+    background-color: #d3cdcd;
+    border-radius: 50%;
+    transition: all 1.5s;
+}
+
+.hero .brands  i:hover {
+    font-size: 1.5em;
+    padding: 10px;
+    color: #d3cdcd;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.hero .link > a:first-child {
+    text-decoration: none;
+    color: #d3cdcd;
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid #d3cdcd;
+    border-radius: 20px;
+    transition: all 1.5s;
+}
+
+.hero .link > a:first-child:hover {
+    background-color: #d3cdcd;
+    color: #000;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+}
+
+.hero .link > a:last-child {
+    background-color: #d3cdcd;
+    color: #000;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    transition: all 1.5s;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.hero .link > a:last-child:hover {
+    color: #d3d3d3;
+    background-color: #000;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    
+}
+
+.tech {
+    text-align: center;
+}
+
+.project {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin: 0 auto  ;
+}
+
+.project img:hover {
+    filter: grayscale(050%);
+}
+
+.link a {
+    background-color: #d3cdcd;
+    color: #000;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    transition: all 1.5s;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.link a:hover {
+    color: #d3d3d3;
+    background-color: #000;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+}
+
+.link {   
+    font-size: 0.8em;
+}
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    width: 200px;
+}
+
+.about p {
+    margin: 0 60px 0 60px;
+}
+
+
+
+.contact {
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.paint {
+    letter-spacing: 0.5px;
+    background: linear-gradient(
+        500deg,
+        #FF2525,
+        #FFFB7D,
+        #52ee22
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
